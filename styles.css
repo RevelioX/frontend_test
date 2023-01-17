@@ -23,7 +23,7 @@
 
 header{
     background-color: #292929;
-    color: aliceblue;
+    color: #d0d0d0;
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
     padding: 10px;
@@ -33,6 +33,7 @@ header{
 
 .logo_title{
     cursor: pointer;
+    font-size: 20px;
 }
 
 .nav ul{
@@ -43,5 +44,12 @@ header{
 
 .nav ul li{
     list-style-type: none;
+    cursor: pointer;
+}
+
+.principal{
+    background-color: #1e1e1e;
+    color: #d0d0d0;
+    font-family: 'Exo 2', sans-serif;
 }
 
