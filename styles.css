@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+body{
+    background-color: #1e1e1e;
+}
 
  /* --base00: #1e1e1e;
     --base01: #292929;
@@ -48,8 +51,15 @@ header{
 }
 
 .principal{
-    background-color: #1e1e1e;
     color: #d0d0d0;
     font-family: 'Exo 2', sans-serif;
+    display: flex;
+    width: 80%;
+
 }
 
+.principal_img img{
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
